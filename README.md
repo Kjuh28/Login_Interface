@@ -4,7 +4,7 @@ O projeto consiste em uma página de Login com autenticação de usuário, onde 
 
 Para instalação do projeto é necessário que baixe os repositórios do back-end e front-end:
 
-## Documentação
+## Repositórios
 
 [Backend] - (https://github.com/Kjuh28/LoginDB)
 
