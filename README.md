@@ -1,3 +1,4 @@
+
 # Login Interface
 
 O projeto consiste em uma página de Login com autenticação de usuário, onde apresente uma pagina de boas-vindas ao(a) usuário(a) logado.
@@ -61,9 +62,14 @@ DB_URL = 'http://localhost:3332'
 
 ## Rodando o projeto
 
-Para rodar o projeto, é necessário que o backend e frontend estejam ativos simultaneamente.
+Antes de inicializar o projeto, é necessário criar uma tabela no terminal do backend com o comando:
 
-Para incializar o backend, utilize o comando no terminal:
+```bash
+  node create-table.js
+```
+(Obs: Caso já exista alguma tabela chamada 'users', é necessário deletar a tabela existente e criar uma nova com as regras dentro do arquivo 'create-table.js')
+
+Após a criação da tabela, inicie o backend com o comando no terminal:
 
 ```bash
   npm run dev
@@ -74,5 +80,6 @@ Para incializar o frontend, utilize o comando no terminal:
 ```bash
   npm run dev
 ```
+Após incializar o frontend, copie o link 'http://localhost:5173/' e cole na aba do navegador para então navegar no projeto. 
 
-após incializar o frontend, copie o link 'http://localhost:5173/' e cole na aba do navegador para então navegar no projeto. 
+(Obs: Para rodar o projeto, é necessário que o backend e frontend estejam ativos simultaneamente.)
